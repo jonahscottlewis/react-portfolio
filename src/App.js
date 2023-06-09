@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header'
 import About from './components/About';
 import Resume from './components/Resume';
-import Portfolio from './components/Portfolio';
+import Project from './components/Project';
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -18,8 +18,8 @@ function App() {
     if (currentTab === "Contact") {
       return <Contact />;
     }
-    if (currentTab === "Portfolio") {
-      return <Portfolio />;
+    if (currentTab === "Project") {
+      return <Project />;
     }
     if (currentTab === "Resume") {
       return <Resume />;
