@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function About() {
+const About = () => {
   return (
 
     <div class="about-me card">
@@ -17,3 +17,5 @@ export default function About() {
 
   );
 }
+
+export default About;

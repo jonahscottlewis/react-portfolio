@@ -1,21 +1,3 @@
-// import React from 'react';
-// import { MDBRipple } from 'mdb-react-ui-kit';
-
-// export default function App() {
-//   return (
-//     <MDBRipple
-//       className='bg-image hover-overlay shadow-1-strong rounded'
-//       rippleTag='div'
-//       rippleColor='light'
-//     >
-//       <img src='https://mdbootstrap.com/img/new/fluid/city/113.webp' className='w-100' />
-//       <a href='#!'>
-//         <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.2)' }}></div>
-//       </a>
-//     </MDBRipple>
-//   );
-// }
-
 import React from 'react';
 import { 
     MDBContainer, 
@@ -34,7 +16,7 @@ import notedImg from '../images/NotedV2 screenshot.png'
 import homeImg from '../images/Home App screenshot.png'
 import weatherImg from '../images/Weather Dashboard screenshot.png'
 
-const Portfolio = () => {
+const Project = () => {
     
     return (
         <MDBContainer fluid className="h-100 pb-4 bkgrd">
@@ -65,7 +47,7 @@ const Portfolio = () => {
                         </MDBCardBody>
                         <MDBCardFooter className="text-center">
                         <MDBCardLink href='https://github.com/jonahscottlewis/Home'>GitHub Repo</MDBCardLink>
-                        <MDBCardLink href='https://myhome.herokuapp.com/SignInPage'>Deployed Heroku app</MDBCardLink>
+                        <MDBCardLink href='https://myhome.herokuapp.com/'>Deployed Heroku app</MDBCardLink>
                         </MDBCardFooter>
                     </MDBCard>
                 </MDBCol>
@@ -89,4 +71,4 @@ const Portfolio = () => {
         )
 };
 
-export default Portfolio;
+export default Project;

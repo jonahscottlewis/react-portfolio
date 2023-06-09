@@ -1,22 +1,42 @@
-import React from 'react';
-import { Route, Routes } from "react-router-dom";
+import React, { useState } from "react";
 import './App.css';
+import Header from './components/Header'
+import About from './components/About';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
+  const [currentTab, handleTabChange] = useState("about");
+
+  // This method is checking to see what the value of `currentTab` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const renderTab = () => {
+    if (currentTab === "About") {
+      return <About />;
+    }
+    if (currentTab === "Contact") {
+      return <Contact />;
+    }
+    if (currentTab === "Portfolio") {
+      return <Portfolio />;
+    }
+    if (currentTab === "Resume") {
+      return <Resume />;
+    }
+    return <About />;
+  };
+
   return (
-    <div className="App">
-      <Navigation />
-      <Routes>
-        <Route exact path="/" element={<About />}></Route>
-        <Route path="/resume" element={<Resume />}></Route>
-        <Route path="/portfolio" element={<Portfolio />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-      </Routes>
-      <Footer />
-    </div>
+    <>
+      
+      <Header
+        currentTab={currentTab}
+        handleTabChange={handleTabChange}
+      ></Header>
+      <main>{renderTab()}</main>
+      <Footer></Footer>
+    </>
   );
 }
 

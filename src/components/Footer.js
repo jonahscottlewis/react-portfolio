@@ -12,6 +12,9 @@ const Footer = () => {
                 <a rel="noreferrer" href='https://github.com/jonahscottlewis' target="_blank" className='me-4 text-reset'>
                 <MDBIcon fab icon="github" size='2x'/>
                 </a>
+                <a rel="noreferrer" href='.com/Jonahslewis96' target="_blank" className='me-4 text-reset'>
+                <MDBIcon fab icon="twitter" size='2x'/>
+                </a>
                 </span>
                 <span className="px-4">Thanks for viewing!</span>
             </div>

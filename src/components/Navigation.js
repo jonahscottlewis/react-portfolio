@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {
   MDBNavbar,
   MDBContainer,
-  MDBNavbarBrand,
+  // MDBNavbarBrand,
   MDBNavbarToggler,
   MDBNavbarItem,
   MDBNavbarLink,
@@ -35,14 +35,14 @@ const Navigation = () => {
                 <MDBNavbarLink href="#about">About</MDBNavbarLink>
                 </MDBNavbarItem>
               </LinkContainer>
-              <LinkContainer to="/portfolio">
+              <LinkContainer to="/project">
                 <MDBNavbarItem>
-                <MDBNavbarLink href="#portfolio">Portfolio</MDBNavbarLink>
+                <MDBNavbarLink href="#project">Projects</MDBNavbarLink>
                 </MDBNavbarItem>
               </LinkContainer>
               <LinkContainer to="/resume">
                 <MDBNavbarItem>
-                <MDBNavbarLink href="#resume">My Resume</MDBNavbarLink>
+                <MDBNavbarLink href="#resume">Resume</MDBNavbarLink>
                 </MDBNavbarItem>
               </LinkContainer>
               <LinkContainer to="/contact">

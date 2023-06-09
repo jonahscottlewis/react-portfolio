@@ -1,7 +1,6 @@
 import React from 'react';
 import { MDBContainer } from 'mdb-react-ui-kit';
 import { useForm } from "react-hook-form";
-import './Contact.css';
 
 const Contact = () => {
   const { register, handleSubmit, formState: { errors }  } = useForm({ mode: 'all' });
