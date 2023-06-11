@@ -15,7 +15,7 @@
 //     const pdfUrl = ''
 //     return (
 //         <MDBContainer fluid className="vh-100">
-//             {/* stored at "https://www.dropbox.com/s/9gg4m98v8e5vxhn/Cliff_Rosenberg_Resume.pdf?dl=0" */}
+//             {/* stored at "" */}
 //             <div className="d-flex justify-content-center">
 //             <MDBCard className="w-25">
 //                 <MDBCardImage className="img-thumbnail" position="top" src={resumePic} />
@@ -32,7 +32,6 @@
 //     )
 // };
 
-// export default Resume;
 
 export default function Resume() {
     return (
