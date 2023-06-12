@@ -1,38 +1,3 @@
-// import React from 'react';
-// import { 
-//     MDBContainer, 
-//     MDBCard,
-//     MDBCardImage,
-//     MDBCardBody,
-//     MDBCardTitle, 
-//     MDBCardText,
-//     MDBCardFooter,
-//     MDBBtn
-//  } from 'mdb-react-ui-kit';
-//  import resumePic from '';
-
-// const Resume = () => {
-//     const pdfUrl = ''
-//     return (
-//         <MDBContainer fluid className="vh-100">
-//             {/* stored at "" */}
-//             <div className="d-flex justify-content-center">
-//             <MDBCard className="w-25">
-//                 <MDBCardImage className="img-thumbnail" position="top" src={resumePic} />
-//                 <MDBCardBody>
-//                 <MDBCardTitle>Download Resume:</MDBCardTitle>
-//                 <MDBCardText>Press the button below to download a copy of my resume.</MDBCardText>
-//                 </MDBCardBody>
-//                 <MDBCardFooter className="text-center">
-//                 <MDBBtn href={pdfUrl}>DOWNLOAD</MDBBtn>
-//                 </MDBCardFooter>
-//             </MDBCard>
-//             </div>
-//         </MDBContainer>
-//     )
-// };
-
-
 export default function Resume() {
     return (
   
@@ -51,6 +16,7 @@ Busser
 • Constantly keeping a high pace
 <br></br>
 • Be aware of restaurant and maintain cleanliness
+<br></br>
 Door Dash, San Francisco, CA April 2020-Present
 Delivery Driver
 <br></br>
@@ -110,3 +76,37 @@ References
   
     );
   }
+
+  // import React from 'react';
+// import { 
+//     MDBContainer, 
+//     MDBCard,
+//     MDBCardImage,
+//     MDBCardBody,
+//     MDBCardTitle, 
+//     MDBCardText,
+//     MDBCardFooter,
+//     MDBBtn
+//  } from 'mdb-react-ui-kit';
+//  import resumePic from '';
+
+// const Resume = () => {
+//     const pdfUrl = ''
+//     return (
+//         <MDBContainer fluid className="vh-100">
+//             {/* stored at "" */}
+//             <div className="d-flex justify-content-center">
+//             <MDBCard className="w-25">
+//                 <MDBCardImage className="img-thumbnail" position="top" src={resumePic} />
+//                 <MDBCardBody>
+//                 <MDBCardTitle>Download Resume:</MDBCardTitle>
+//                 <MDBCardText>Press the button below to download a copy of my resume.</MDBCardText>
+//                 </MDBCardBody>
+//                 <MDBCardFooter className="text-center">
+//                 <MDBBtn href={pdfUrl}>DOWNLOAD</MDBBtn>
+//                 </MDBCardFooter>
+//             </MDBCard>
+//             </div>
+//         </MDBContainer>
+//     )
+// };
