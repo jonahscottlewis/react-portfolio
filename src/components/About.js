@@ -5,14 +5,7 @@ const About = () => {
 
     <div class="about-me card">
       <h1 class="h1">About me</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-        in
-        voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-        est
-        laborum.</p>
+      <p>Welcome to my portfolio! I am a recent graduate of the esteemed UC Davis Coding Bootcamp, equipped with a solid foundation in software development and a passion for creating innovative solutions. With a dedication to lifelong learning and a drive for excellence, I am eager to embark on a fulfilling career as a junior software developer. This portfolio showcases my diverse range of projects, highlighting my skills in front-end and back-end development, problem-solving, and collaboration. Join me on this exciting journey as we explore the possibilities of technology together. Let's build the future, one line of code at a time.</p>
     </div>
 
   );
