@@ -1,61 +1,69 @@
-import React, {useState} from 'react';
-import {
-  MDBNavbar,
-  MDBContainer,
-  // MDBNavbarBrand,
-  MDBNavbarToggler,
-  MDBNavbarItem,
-  MDBNavbarLink,
-  MDBCollapse,
-  MDBIcon,
-  MDBNavbarNav
-} from 'mdb-react-ui-kit';
+import React, { useEffect } from 'react';
+import { capitalizeFirstLetter } from '../utils/helpers';
 
-import { LinkContainer } from 'react-router-bootstrap';
+// Here we are using object destructuring assignment to pluck off our variables from the props object
+// We assign them to their own variable names
+function Nav(props) {
+  const {
+    currentTab,
+    handleTabChange,
 
-const Navigation = () => {
-  const [showNavNoToggler, setShowNavNoToggler] = useState(false);
+  } = props;
+
+    useEffect(() => {
+      document.title = capitalizeFirstLetter(currentTab.name);
+    }, [currentTab]);
+
 
   return (
-    <>
-    <MDBNavbar expand='lg' dark bgColor="dark">
-      <MDBContainer fluid>
-        <MDBNavbarToggler type='button'
-            data-target='#navbarTogglerDemo01'
-            aria-controls='navbarTogglerDemo01'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-            onClick={() => setShowNavNoToggler(!showNavNoToggler)}>
-            <MDBIcon icon='bars' fas />
-          </MDBNavbarToggler>
-        <MDBCollapse navbar show={showNavNoToggler}>
-        <MDBNavbarNav>
-              <LinkContainer to="/about">
-                <MDBNavbarItem>
-                <MDBNavbarLink href="#about">About</MDBNavbarLink>
-                </MDBNavbarItem>
-              </LinkContainer>
-              <LinkContainer to="/project">
-                <MDBNavbarItem>
-                <MDBNavbarLink href="#project">Projects</MDBNavbarLink>
-                </MDBNavbarItem>
-              </LinkContainer>
-              <LinkContainer to="/resume">
-                <MDBNavbarItem>
-                <MDBNavbarLink href="#resume">Resume</MDBNavbarLink>
-                </MDBNavbarItem>
-              </LinkContainer>
-              <LinkContainer to="/contact">
-                <MDBNavbarItem>
-                <MDBNavbarLink href="#contact">Contact</MDBNavbarLink>
-                </MDBNavbarItem>
-              </LinkContainer>
-          </MDBNavbarNav>
-        </MDBCollapse>
-      </MDBContainer>
-    </MDBNavbar>
-    </>
+
+   
+    <nav>
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+          <a
+            href="#about"
+            onClick={() => handleTabChange('About')}
+            // Check to see if the currentTab is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentTab === 'About' ? 'nav-link active' : 'nav-link'}
+          >
+            About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#portfolio"
+            onClick={() => handleTabChange('Project')}
+            // Check to see if the currentTab is `Portfolio`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentTab === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+          >
+            Portfolio
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#contact"
+            onClick={() => handleTabChange('Contact')}
+            // Check to see if the currentTab is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentTab === 'Contact' ? 'nav-link active' : 'nav-link'}
+          >
+            Contact
+          </a>
+        </li>
+        <li className="nav-item">
+          <a
+            href="#resume"
+            onClick={() => handleTabChange('Resume')}
+            // Check to see if the currentTab is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+            className={currentTab === 'Resume' ? 'nav-link active' : 'nav-link'}
+          >
+            Resume
+          </a>
+        </li>
+    </ul>
+    </nav>
+
   );
 }
 
-export default Navigation;
+export default Nav;

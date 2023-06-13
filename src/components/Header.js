@@ -1,22 +1,35 @@
 import React from "react";
-// import Navigation from "./Navigation";
+import Navigation from "../components/Navigation";
+import coverPhoto from "../images/portfolio cover photo.jpg"
 
 function Header(props) {
-	// const { currentTab, setCurrentTab } = props;
-
+	const { currentTab, handleTabChange } = props;
+  
 	return (
-		<header>
+	  <div>
+		<section>
+		  <header>
 			<div>
-				<h2>Jonah Lewis' Portfolio</h2>
+			  <h1>Jonah Lewis' Portfolio</h1>
 			</div>
 			<div>
-				{/* <Navigation
-					currentTab={currentTab}
-					setCurrentTab={setCurrentTab}
-				></Navigation> */}
+			  <Navigation
+				currentTab={currentTab}
+				handleTabChange={handleTabChange}
+			  ></Navigation>
 			</div>
-		</header>
+		  </header>
+		</section>
+		<section>
+		  <div>
+			{ <img 
+			src={ coverPhoto }
+			/>}
+			<h4>Have a look aorund!</h4>
+		  </div>
+		</section>
+	  </div>
 	);
-}
-
-export default Header;
+  }
+  
+  export default Header;
