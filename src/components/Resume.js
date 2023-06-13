@@ -1,8 +1,8 @@
 export default function Resume() {
     return (
   
-      <div class="about-me card">
-        <h1 class="h1">About me</h1>
+      <div class="resume">
+        <h1 class="h1">My Resume</h1>
         <p>       JONAH LEWIS
             <br></br>
 Fair Oaks, CA | jonahslewis96@gmail.com | (916) 308-9237

@@ -6,6 +6,17 @@ import Resume from './components/Resume';
 import Project from './components/Project';
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import {
+  MDBNavbar,
+  MDBContainer,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBNavbarToggler,
+  MDBNavbarBrand,
+  MDBCollapse
+} from 'mdb-react-ui-kit';
 
 function App() {
   const [currentTab, handleTabChange] = useState("about");

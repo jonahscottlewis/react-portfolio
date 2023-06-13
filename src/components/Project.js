@@ -1,4 +1,15 @@
 import React from 'react';
+
+/* 
+<div>
+
+<div>
+
+*/
+
+
+
+
 import { 
     MDBContainer, 
     MDBRow, 
@@ -23,7 +34,7 @@ const Project = () => {
             <MDBRow className="row-cols-1 row-cols-md-3 g-3 pt-2">
                 <MDBCol>
                     <MDBCard className="h-100">
-                        <MDBCardImage className="img-thumbnail" position="top" src={notedImg} />
+                        <MDBCardImage className="img-thumbnail project-photo" position="top" src={notedImg} />
                         <MDBCardBody>
                         <MDBCardTitle>Noted</MDBCardTitle>
                         <MDBCardText>
@@ -38,7 +49,7 @@ const Project = () => {
                 </MDBCol>
                 <MDBCol>
                     <MDBCard className="h-100">
-                        <MDBCardImage className="img-thumbnail" position="top" src={homeImg} />
+                        <MDBCardImage className="img-thumbnail project-photo" position="top" src={homeImg} />
                         <MDBCardBody>
                         <MDBCardTitle>Home</MDBCardTitle>
                         <MDBCardText>
@@ -53,7 +64,7 @@ const Project = () => {
                 </MDBCol>
                 <MDBCol>
                     <MDBCard className="h-100">
-                        <MDBCardImage className="img-thumbnail" position="top" src={weatherImg} />
+                        <MDBCardImage className="img-thumbnail project-photo" position="top" src={weatherImg} />
                         <MDBCardBody>
                         <MDBCardTitle>Weather Dashboard</MDBCardTitle>
                         <MDBCardText>

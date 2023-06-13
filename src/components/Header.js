@@ -1,6 +1,5 @@
 import React from "react";
 import Navigation from "../components/Navigation";
-import coverPhoto from "../images/portfolio cover photo.jpg"
 
 function Header(props) {
 	const { currentTab, handleTabChange } = props;
@@ -22,10 +21,10 @@ function Header(props) {
 		</section>
 		<section>
 		  <div>
-			{ <img 
-			src={ coverPhoto }
-			/>}
-			<h4>Have a look aorund!</h4>
+			{/* { <img 
+			src={ coverPhoto } */}
+			
+			<h4>Welcome!</h4>
 		  </div>
 		</section>
 	  </div>
