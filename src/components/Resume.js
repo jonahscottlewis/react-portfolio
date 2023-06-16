@@ -3,15 +3,15 @@ export default function Resume() {
   
       <div class="resume">
         <h1 class="h1">My Resume</h1>
-        <p>       JONAH LEWIS
+        <p>       <h3>JONAH LEWIS</h3>
             <br></br>
-Fair Oaks, CA | jonahslewis96@gmail.com | (916) 308-9237
+<h4>Fair Oaks, CA | jonahslewis96@gmail.com | (916) 308-9237</h4>
 <br></br>
                 Work Experience
                 <br></br>
 Chili's, Fair Oaks, CA March 2023-present
 <br></br>
-Busser
+Server/To-Go
 <br></br>
 • Constantly keeping a high pace
 <br></br>
