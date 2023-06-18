@@ -43,11 +43,17 @@ align-items: center;
 
 .resume{
   text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  width: 60%;
+  margin-left: 20%;
 }
 
+/* 
 .footer{
   
-}
+} */
 
 .footer-link{
   padding-right: 2%;

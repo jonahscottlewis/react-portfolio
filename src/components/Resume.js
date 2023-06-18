@@ -2,10 +2,14 @@ export default function Resume() {
     return (
   
       <div class="resume">
+        <div>
         <h1 class="h1">My Resume</h1>
         <p>       <h3>JONAH LEWIS</h3>
             <br></br>
 <h4>Fair Oaks, CA | jonahslewis96@gmail.com | (916) 308-9237</h4>
+</p>
+</div>
+<p>
 <br></br>
                 Work Experience
                 <br></br>
