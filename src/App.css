@@ -42,12 +42,20 @@ align-items: center;
 }
 
 .resume{
-  text-align: center;
+  background-color: rgb(248, 219, 185);
   border-style: solid;
   border-color: black;
   border-width: 5px;
   width: 60%;
   margin-left: 20%;
+}
+
+.resume-header{
+  text-align: center;
+}
+
+.workplace{
+  text-align: center;
 }
 
 /* 

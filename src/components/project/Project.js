@@ -42,9 +42,9 @@ import {
     MDBCardFooter
     } from 'mdb-react-ui-kit';
 
-import notedImg from '../images/NotedV2 screenshot.png'
-import homeImg from '../images/Home App screenshot.png'
-import weatherImg from '../images/Weather Dashboard screenshot.png'
+import notedImg from '../../images/NotedV2 screenshot.png'
+import homeImg from '../../images/Home App screenshot.png'
+import weatherImg from '../../images/Weather Dashboard screenshot.png'
 
 const Project = () => {
     

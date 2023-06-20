@@ -1,5 +1,5 @@
 import React from "react";
-import Jonah from "../images/portfolio cover photo.jpg"
+import Jonah from '../../images/portfolio cover photo.jpg'
 
 
 const About = () => {
