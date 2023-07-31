@@ -1,30 +1,46 @@
-import React from 'react';
+// import React from 'react';
+// import notedImg from '../../images/NotedV2 screenshot.png'
+// import homeImg from '../../images/Home App screenshot.png'
+// import weatherImg from '../../images/Weather Dashboard screenshot.png'
 
-/* 
-<div className="project-container">
-    <div className="project-card">
-        <h2>Noted</h2>
-        <p>A daily planner app with everything you need to keep your life organized!</p>
-        <a href='https://github.com/jonahscottlewis/notedV2'>GitHub Repo</a>
-        <a href='https://noted2.herokuapp.com/'>Deployed Heroku app</a>
-    </div>
+ 
+// const Project = () => {
 
-    <div className="project-card">
-        <h2>Home</h2>
-        <p>An application which inventories the items in your home for insurance records.</p>
-        <a href='https://github.com/jonahscottlewis/Home'>GitHub Repo</a>
-        <a href='https://myhome.herokuapp.com/'>Deployed Heroku app</a>
-    </div>
+// <div className="project-container">
+//     <div className="project-card">
+//         <h2>Noted</h2>
+//         {<img src={ notedImg }></img>}
+//         <p>A daily planner app with everything you need to keep your life organized!</p>
+//         <a href='https://github.com/jonahscottlewis/notedV2'>GitHub Repo</a>
+//         <br></br>
+//         <a href='https://noted2.herokuapp.com/'>Deployed Heroku app</a>
+//     </div>
 
-    <div className="project-card">
-        <h2>Weather Dashboard</h2>
-        <p>A Weather application that gives you a 5 day forecast.</p>
-        <a href='https://github.com/jonahscottlewis/weather-dashboard'>GitHub Repo</a>
-        <a href='https://jonahscottlewis.github.io/weather-dashboard/'>Deployed GitHub pages app</a>
-    </div>
-</div>
+//     <div className="project-card">
+//         <h2>Home</h2>
+//         {<img src={ homeImg }></img>}
+//         <p>An application which inventories the items in your home for insurance records.</p>
+//         <a href='https://github.com/jonahscottlewis/Home'>GitHub Repo</a>
+//         <br></br>
+//         <a href='https://myhome.herokuapp.com/'>Deployed Heroku app</a>
+//     </div>
 
-*/
+//     <div className="project-card">
+//         <h2>Weather Dashboard</h2>
+//         {<img src={ weatherImg }></img>}
+//         <p>A Weather application that gives you a 5 day forecast.</p>
+//         <a href='https://github.com/jonahscottlewis/weather-dashboard'>GitHub Repo</a>
+//         <br></br>
+//         <a href='https://jonahscottlewis.github.io/weather-dashboard/'>Deployed GitHub pages app</a>
+//     </div>
+// </div>
+
+// };
+
+// export default Project;
+
+
+
 
 
 
