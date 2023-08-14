@@ -69,7 +69,7 @@ const Project = () => {
             <MDBRow className="row-cols-1 row-cols-md-3 g-3 pt-2">
                 <MDBCol>
                     <MDBCard className="h-100">
-                        <MDBCardImage className="img-thumbnail project-photo" position="top" src={notedImg} />
+                        <MDBCardImage className="bg-image hover-zoom" position="top" src={notedImg} />
                         <MDBCardBody>
                         <MDBCardTitle>Noted</MDBCardTitle>
                         <MDBCardText>
